@@ -65,8 +65,48 @@ function getRnd(min, max){
 
 }
 
-var res = getRnd(58, 163);
-console.log(res);
 
-var res = getRnd(10, 20);
-console.log(res);
+
+
+
+
+
+function isPair(value) {
+  if (value %2 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
+
+
+
+
+// var res = getRnd(58, 163);
+// console.log(res);
+//
+// var res = getRnd(10, 20);
+// console.log(res);
+
+function es1() {
+
+  for (var i = 0; i < 10; i++) {
+    var pluto  = getRnd(0, 10);
+    console.log((i + 1) + ' random', rnd);
+  }
+
+}
+
+function es2(value) {
+  var value = 12;
+  console.log(value, isPair(value));
+}
+
+function test10() {
+  return 10;
+}
+
+// es1();
+es2();
