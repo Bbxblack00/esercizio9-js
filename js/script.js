@@ -72,7 +72,7 @@ function getRnd(min, max){
 
 
 function isPair(value) {
-  if (value %2 == 0) {
+  if (value % 2 == 0) {
     return true;
   } else {
     return false;
